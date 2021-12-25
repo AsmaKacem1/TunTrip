@@ -11,7 +11,8 @@ import { AddElementComponent } from './views/admin/addElement/add-element/add-el
 import { MonastirComponent } from './views/destination/monastir/monastir.component';
 import { SousseComponent } from './views/destination/sousse/sousse.component';
 import { MahdiaComponent } from './views/destination/mahdia/mahdia.component';
-import { FormsModule } from '@angular/forms';
+
+
 
 
 
@@ -29,8 +30,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    LayoutsModule,
-    FormsModule
+    LayoutsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

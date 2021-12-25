@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
 import { NgForm } from '@angular/forms';
 
 @Component({
@@ -9,22 +8,11 @@ import { NgForm } from '@angular/forms';
 })
 export class AuthFrontLayoutComponent implements OnInit {
 
-  myForm=new FormGroup({
-    firstName:new FormControl(),
-    lastName:new FormControl(),
-    email:new FormControl(),
-    password:new FormControl(),
-    birthdayDay:new FormControl(),
-    birthdayYear:new FormControl(),
-    birthdayMonth:new FormControl(),
-  })
-
   constructor() { }
 
   ngOnInit(): void {
   }
-  onSubmit(){
-
-  }
-
+  onSubmit(f:NgForm) {
+    
+}
 }
